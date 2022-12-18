@@ -1,0 +1,22 @@
+/* <---------- ROOT ----------> */
+
+:root{
+
+/* <---------- FIRST THEME COLOR ----------> */
+    --bg-main-first-theme: hsl(222, 26%, 31%);
+    --text-white: hsl(0, 0%, 100%);
+
+/* <---------- SECOND THEME COLOR ----------> */
+/* <---------- THIRD THEME COLOR ----------> */
+
+}
+
+/* <---------- FIRST THEME COLOR ----------> */
+
+.firstBgTheme{
+    background-color: var(--bg-main-first-theme);
+}
+
+
+/* <---------- SECOND THEME COLOR ----------> */
+/* <---------- THIRD THEME COLOR ----------> */
