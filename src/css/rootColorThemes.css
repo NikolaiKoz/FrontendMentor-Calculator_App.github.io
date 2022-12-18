@@ -5,6 +5,8 @@
 /* <---------- FIRST THEME COLOR ----------> */
     --bg-main-first-theme: hsl(222, 26%, 31%);
     --text-white: hsl(0, 0%, 100%);
+    --toggleAndKeypad-bg-first-theme: hsl(223, 31%, 20%);
+    --toggleAndEqual-first-theme: hsl(6, 63%, 50%);
 
 /* <---------- SECOND THEME COLOR ----------> */
 /* <---------- THIRD THEME COLOR ----------> */
@@ -15,6 +17,18 @@
 
 .firstBgTheme{
     background-color: var(--bg-main-first-theme);
+}
+
+.textColorWhite{
+    color: var(--text-white);
+}
+
+.toggleAndKeypad-bg-first-theme{
+    background-color: var(--toggleAndKeypad-bg-first-theme);
+}
+
+.toggleAndEqual-first-theme{
+    background-color: var(--toggleAndEqual-first-theme);
 }
 
 

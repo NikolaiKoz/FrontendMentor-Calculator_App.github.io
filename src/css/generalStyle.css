@@ -11,8 +11,10 @@
     padding: 0 1.5em;
 }
 
-.textColorWhite{
-    color: var(--text-white);
+.h1Title{
+    align-self: flex-end;
+    font-size: 1.8em;
+    text-transform: lowercase;
 }
 
 .themeSectionContainer{
@@ -24,13 +26,19 @@
 }
 
 .themeText{
-    text-align: end;
+    align-self: flex-end;
+    font-size: .6em;
+    margin-right: 2em;
+    text-transform: uppercase;
 }
 
 .switchOptions__numbers{
     display: flex;
     justify-content: space-between;
-    width: 5em;
+    font-size: .7em;
+    width: 3.5rem;
+    padding: 0 .5em;
+    margin-bottom: .5em;
 }
 
 
@@ -40,12 +48,18 @@
 
 
 .switchOptions__switch__backgorund{
-    background-color: aliceblue;
+    width: 3.5em;
+    height: 1.4em;
+    border-radius: 1em;
+    position: relative;
+    cursor: pointer;
 }
 
 .switchOptions__switch__backgorund__circle{
-    width: 1.5em;
-    height: 1.5em;
+    width: .7em;
+    height: .7em;
     border-radius: 50%;
-    background-color: red;
+    position: absolute;
+    top: .4em;
+    left: .1em;
 }
