@@ -8,6 +8,13 @@
     --toggleAndKeypad-bg-first-theme: hsl(223, 31%, 20%);
     --toggleAndEqual-first-theme: hsl(6, 63%, 50%);
     --screen-bg-first-theme: hsl(224, 36%, 15%);
+    --key-bg-first-theme: hsl(30, 25%, 89%);
+    --key-shadow-first-theme: hsl(28, 16%, 65%);
+    --resetAndderKey-bg-first-theme: hsl(225, 21%, 49%);
+    --resetAndderKey-shadow-first-theme: hsl(224, 28%, 35%);
+    --equalKey-bg-first-theme: hsl(6, 63%, 50%);
+    --equalKey-shadow-first-theme: hsl(6, 70%, 34%);
+    --numbers-text-first-theme: hsl(221, 14%, 31%);
 
 /* <---------- SECOND THEME COLOR ----------> */
 /* <---------- THIRD THEME COLOR ----------> */
@@ -35,6 +42,36 @@
 .screen-bg-first-theme{
     background-color: var(--screen-bg-first-theme);
 }
+
+.key-bg-first-theme{
+    background-color: var(--key-bg-first-theme);
+}
+
+.key-shadow-first-theme{
+    box-shadow: 0 5px 0 0 var(--key-shadow-first-theme);
+}
+
+.resetAndderKey-bg-first-theme{
+    background-color: var(--resetAndderKey-bg-first-theme);
+}
+
+.resetAndderKey-shadow-first-theme{
+    box-shadow: 0 5px 0 0 var(--resetAndderKey-shadow-first-theme);
+}
+
+.equalKey-bg-first-theme{
+    background-color: var(--equalKey-bg-first-theme);
+}
+
+.equalKey-shadow-first-theme{
+    box-shadow: 0 5px 0 0 var(--equalKey-shadow-first-theme);
+}
+
+.numbers-text-first-theme{
+    color: var(--numbers-text-first-theme);
+}
+
+
 
 
 /* <---------- SECOND THEME COLOR ----------> */
