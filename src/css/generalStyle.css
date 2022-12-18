@@ -18,6 +18,8 @@
   text-transform: lowercase;
 }
 
+/* <-- TOGGLE --> */
+
 .themeSectionContainer {
   display: flex;
   align-items: center;
@@ -55,8 +57,26 @@
   border-radius: 50%;
   position: absolute;
   top: 0.2em;
-  left: 0.3em;
 }
+
+/* <-- CIRCLE POSITION --> */
+
+.circlePosition1 {
+  left: 0.3em;
+  transition: left 0.3s;
+}
+
+.circlePosition2 {
+  left: 1.5em;
+    transition: left 0.3s;
+}
+
+.circlePosition3 {
+  left: 2.7em;
+    transition: left 0.3s;
+}
+
+
 
 /* <---------- MAIN ----------> */
 
