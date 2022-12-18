@@ -1,0 +1,24 @@
+{
+  "name": "frontendmentor-calculator_app.github.io",
+  "version": "1.0.0",
+  "description": "![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikolaiKoz/FrontendMentor-Calculator_App.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikolaiKoz/FrontendMentor-Calculator_App.github.io/issues"
+  },
+  "homepage": "https://github.com/NikolaiKoz/FrontendMentor-Calculator_App.github.io#readme",
+  "dependencies": {
+    "jsdoc": "^4.0.0"
+  }
+}
