@@ -36,11 +36,11 @@
 .switchOptions__numbers {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 0.7em;
   width: 3.5rem;
-  padding: 0 0.5em;
-  margin-left: 0.3em;
   margin-bottom: 0.5em;
+  padding-left: 1em;
 }
 
 .switchOptions__switch__backgorund {
@@ -62,7 +62,7 @@
 /* <-- CIRCLE POSITION --> */
 
 .circlePosition1 {
-  left: 0.3em;
+  left: 0.4em;
   transition: left 0.3s;
 }
 
