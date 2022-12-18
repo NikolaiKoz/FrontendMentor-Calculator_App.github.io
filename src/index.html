@@ -1,91 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/resetDOM.css">
-  <link rel="stylesheet" href="./css/rootColorThemes.css">
-  <link rel="stylesheet" href="./css/generalStyle.css">
-  <title>Frontend Mentor | Calculator app</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/resetDOM.css" />
+    <link rel="stylesheet" href="./css/rootColorThemes.css" />
+    <link rel="stylesheet" href="./css/generalStyle.css" />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body class="textFontFamily firstBgTheme">
+    <header class="header textColorWhite">
+      <h1 class="h1Title">calc</h1>
+      <section class="themeSectionContainer">
+        <p class="themeText">theme</p>
+        <article class="switchOptions">
+          <section class="switchOptions__numbers">
+            <p class="switchOption__numbers__id">1</p>
+            <p class="switchOption__numbers__id">2</p>
+            <p class="switchOption__numbers__id">3</p>
+          </section>
+          <section class="switchOptions__switch">
+            <div
+              class="switchOptions__switch__backgorund toggleAndKeypad-bg-first-theme"
+            >
+              <div
+                class="switchOptions__switch__backgorund__circle toggleAndEqual-first-theme"
+              ></div>
+            </div>
+          </section>
+        </article>
+      </section>
+    </header>
 
-</head>
-<body class="textFontFamily firstBgTheme">
+    <!-- MAIN -->
 
-  <header class="header textColorWhite">
-    <h1 class="h1Title">calc</h1>
-    <section class="themeSectionContainer">
-      <p class="themeText">theme</p>
-      <article class="switchOptions">
-        <section class="switchOptions__numbers">
-          <p class="switchOption__numbers__id">1</p>
-          <p class="switchOption__numbers__id">2</p>
-          <p class="switchOption__numbers__id">3</p>
-        </section>
-        <section class="switchOptions__switch">
-          <div class="switchOptions__switch__backgorund toggleAndKeypad-bg-first-theme">
-            <div class="switchOptions__switch__backgorund__circle toggleAndEqual-first-theme"></div>
-          </div>
-        </section>
-      </article>
-    </section>
-  </header>
+    <main class="main">
+      <!-- DISPLAY -->
 
-  <!-- MAIN -->
+      <section class="displayContainer screen-bg-first-theme">
+        <p class="displayContainer__display textColorWhite">399,981</p>
+      </section>
 
-  <main class="main">
+      <!-- ARGENTINA CAMPEON DEL MUNDO, VAMOS CARAJO!!!!!!! -->
 
-    <!-- DISPLAY -->
+      <!-- KEYPAD -->
 
-    <section class="displayContainer screen-bg-first-theme">
-      <p class="displayContainer__display textColorWhite">399,981</p>
-    </section>
+      <section class="keypadContainer screen-bg-first-theme">
+        <article
+          class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme"
+        >
+          7
+        </article>
+        <article
+          class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme"
+        >
+          8
+        </article>
+        <article
+          class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme"
+        >
+          9
+        </article>
+        <article
+          class="key textUpperCase resetAndderKey-bg-first-theme resetAndderKey-shadow-first-theme keyresetAndDelText textColorWhite"
+        >
+          del
+        </article>
+        <article
+          class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme"
+        >
+          4
+        </article>
+        <article
+          class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme"
+        >
+          6
+        </article>
+        <article
+          class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme"
+        >
+          5
+        </article>
+        <article
+          class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme"
+        >
+          +
+        </article>
+        <article
+          class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme"
+        >
+          1
+        </article>
+        <article
+          class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme"
+        >
+          2
+        </article>
+        <article
+          class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme"
+        >
+          3
+        </article>
+        <article
+          class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme"
+        >
+          -
+        </article>
+        <article
+          class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme"
+        >
+          .
+        </article>
+        <article
+          class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme"
+        >
+          0
+        </article>
+        <article
+          class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme"
+        >
+          /
+        </article>
+        <article
+          class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme"
+        >
+          x
+        </article>
+        <article
+          class="key resetKey textUpperCase resetAndderKey-bg-first-theme resetAndderKey-shadow-first-theme keyresetAndDelText textColorWhite"
+        >
+          reset
+        </article>
+        <article
+          class="key equalKey equalKey-bg-first-theme equalKey-shadow-first-theme textColorWhite fontSizeEqualKey"
+        >
+          =
+        </article>
+      </section>
+    </main>
 
-    <!-- ARGENTINA CAMPEON DEL MUNDO, VAMOS CARAJO!!!!!!! -->
+    <!-- FOOTER -->
 
-    <!-- KEYPAD -->
+    <footer class="body__footer">
+      <div class="attribution">
+        <p>
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >
+        </p>
+        <p>
+          Coded by
+          <a href="https://github.com/NikolaiKoz">Vallejos Jose Luis</a>.
+        </p>
+      </div>
+    </footer>
 
-    <section class="keypadContainer screen-bg-first-theme">
-      <article class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme">7</article>
-      <article class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme">8</article>
-      <article class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme">9</article>
-      <article class="key textUpperCase resetAndderKey-bg-first-theme resetAndderKey-shadow-first-theme keyresetAndDelText textColorWhite">del</article>
-      <article class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme">4</article>
-      <article class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme">6</article>
-      <article class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme">5</article>
-      <article class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme">+</article>
-      <article class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme">1</article>
-      <article class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme">2</article>
-      <article class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme">3</article>
-      <article class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme">-</article>
-      <article class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme">.</article>
-      <article class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme">0</article>
-      <article class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme">/</article>
-      <article class="key key-bg-first-theme key-shadow-first-theme numbers-text-first-theme">x</article>
-      <article class="key resetKey textUpperCase resetAndderKey-bg-first-theme resetAndderKey-shadow-first-theme keyresetAndDelText textColorWhite">reset</article>
-      <article class="key equalKey equalKey-bg-first-theme equalKey-shadow-first-theme textColorWhite fontSizeEqualKey">=</article>
-    </section>
-
-  </main>
-
-  <!-- FOOTER -->
-
-  <footer class="body__footer">
-    <div class="attribution">
-      <p>
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
-      </p>
-      <p>
-        Coded by
-        <a href="https://github.com/NikolaiKoz">Vallejos Jose Luis</a>.
-      </p>
-    </div>
-  </footer>
-
-
-
-</body>
+    <!-- SCRIPTS -->
+  </body>
 </html>

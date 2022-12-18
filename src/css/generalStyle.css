@@ -1,157 +1,196 @@
-.textFontFamily{
-    font-family: 'League Spartan', sans-serif;
+.textFontFamily {
+  font-family: "League Spartan", sans-serif;
 }
 
 /* <---------- HEADER ----------> */
 
-.header{
-    margin-top: 1em;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 1.5em;
-    margin-bottom: 2em;
+.header {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5em;
+  margin-bottom: 2em;
 }
 
-.h1Title{
-    align-self: flex-end;
-    font-size: 1.8em;
-    text-transform: lowercase;
+.h1Title {
+  align-self: flex-end;
+  font-size: 1.8em;
+  text-transform: lowercase;
 }
 
-.themeSectionContainer{
-    display: flex;
-    align-items: center;
-    position: relative;
+.themeSectionContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
-.themeText{
-    align-self: flex-end;
-    font-size: .8em;
-    margin-right: 2em;
-    text-transform: uppercase;
+.themeText {
+  align-self: flex-end;
+  font-size: 0.8em;
+  margin-right: 2em;
+  text-transform: uppercase;
 }
 
-.switchOptions__numbers{
-    display: flex;
-    justify-content: space-between;
-    font-size: .7em;
-    width: 3.5rem;
-    padding: 0 .5em;
-    margin-left: .3em;
-    margin-bottom: .5em;
+.switchOptions__numbers {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7em;
+  width: 3.5rem;
+  padding: 0 0.5em;
+  margin-left: 0.3em;
+  margin-bottom: 0.5em;
 }
 
-.switchOptions__switch__backgorund{
-    width: 4em;
-    height: 1.4em;
-    border-radius: 1em;
-    position: relative;
-    cursor: pointer;
+.switchOptions__switch__backgorund {
+  width: 4em;
+  height: 1.4em;
+  border-radius: 1em;
+  position: relative;
+  cursor: pointer;
 }
 
-.switchOptions__switch__backgorund__circle{
-    width: 1em;
-    height: 1em;
-    border-radius: 50%;
-    position: absolute;
-    top: .2em;
-    left: .3em;
+.switchOptions__switch__backgorund__circle {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.2em;
+  left: 0.3em;
 }
 
 /* <---------- MAIN ----------> */
 
-.main{
-    margin: 0 1.5em;
+.main {
+  margin: 0 1.5em;
 }
 
 /* <-- DISPLAY --> */
 
-.displayContainer{
-    width: 100%;
-    height: 80px;
-    border-radius: .5em;
-    margin-bottom: 2em;
+.displayContainer {
+  width: 100%;
+  height: 80px;
+  border-radius: 0.5em;
+  margin-bottom: 2em;
 }
 
-.displayContainer__display{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0 1rem;
-    font-size: 2.5rem;
+.displayContainer__display {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 1rem;
+  font-size: 2.5rem;
 }
 
 /* <-- KEYPAD--> */
 
-.keypadContainer{
-    border-radius: .5em;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 3.5em);
-    grid-gap: 1em;
-    padding: 1.5em;
+.keypadContainer {
+  border-radius: 0.5em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 3.5em);
+  grid-gap: 1em;
+  padding: 1.5em;
 }
 
-.key{
-    padding-top: .2em;
-    border-radius: .25em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    cursor: pointer;
+.key {
+  padding-top: 0.2em;
+  border-radius: 0.25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
-.keyresetAndDelText{
-    font-size: 1.2rem;
+.keyresetAndDelText {
+  font-size: 1.2rem;
 }
 
-.resetKey{
-    grid-column: 1 / 3;
+.resetKey {
+  grid-column: 1 / 3;
 }
 
-.equalKey{
-    grid-column: 3 / 5;
+.equalKey {
+  grid-column: 3 / 5;
 }
 
-.textUpperCase{
-    text-transform: uppercase;
+.textUpperCase {
+  text-transform: uppercase;
 }
 
-.fontSizeEqualKey{
-    font-size: 1.2rem;
+.fontSizeEqualKey {
+  font-size: 1.2rem;
 }
 
 /* <---------- FOOTER ----------> */
 
-.body__footer{
-    background-color            : darkgray;
-    height                      : 50px;
-    display                     : flex;
-    justify-content             : center;
-    align-items                 : center;
-    box-shadow                  : rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    max-width                   : 80%;
-    margin                      : 20px auto;
+.body__footer {
+  background-color: darkgray;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  max-width: 80%;
+  margin: 20px auto;
 }
 
-.body__ > .attribution > p{
-    margin-bottom               : 5px;
+.body__ > .attribution > p {
+  margin-bottom: 5px;
 }
 
 .attribution {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight                 : 700;
-    font-size                   : 13px;
-    text-align                  : center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-align: center;
 }
 
 .attribution a {
-    color                       : hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
 
+/* <---------- MEDIA QUERIES ----------> */
 
+/* <-- TABLET/DESKTOP MIN-WIDTH 500px --> */
 
+@media screen and (min-width: 500px) {
+  .header,
+  .main {
+    max-width: 500px;
+    margin: 0 auto;
+  }
 
+  .header {
+    margin-top: 2em;
+    margin-bottom: 3em;
+  }
+
+  .themeSectionContainer {
+    margin-bottom: 1em;
+  }
+
+  .switchOptions__numbers {
+    margin-left: 0;
+  }
+
+  .displayContainer__display {
+    font-size: 2rem;
+  }
+
+  .key {
+    font-size: 1.5rem;
+  }
+
+  .keyresetAndDelText {
+    font-size: 1rem;
+  }
+
+  .fontSizeEqualKey {
+    font-size: 1rem;
+  }
+}
