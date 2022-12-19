@@ -197,19 +197,4 @@
     margin-left: 0;
   }
 
-  .displayContainer__display {
-    font-size: 2rem;
-  }
-
-  .key {
-    font-size: 1.5rem;
-  }
-
-  .keyresetAndDelText {
-    font-size: 1rem;
-  }
-
-  .fontSizeEqualKey {
-    font-size: 1rem;
-  }
 }
