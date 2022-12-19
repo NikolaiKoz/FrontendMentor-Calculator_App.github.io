@@ -11,7 +11,7 @@ const allKeys = () => {
         }else if (keyValue === "=") {
             // console.log('=');
         } else {
-            // console.log(keyValue);
+            numberAnsOperationKeys(key);
         }
 
     });
