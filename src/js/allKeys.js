@@ -7,7 +7,7 @@ const allKeys = () => {
         if (keyValue === "reset") {
             reset(key);
         }else if (keyValue === "del") {
-            // console.log('enter');
+            del(key);
         }else if (keyValue === "=") {
             // console.log('=');
         } else {
