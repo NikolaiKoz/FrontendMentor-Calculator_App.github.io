@@ -9,7 +9,7 @@ const allKeys = () => {
         }else if (keyValue === "del") {
             del(key);
         }else if (keyValue === "=") {
-            // console.log('=');
+            equal(key);
         } else {
             numberAnsOperationKeys(key);
         }
