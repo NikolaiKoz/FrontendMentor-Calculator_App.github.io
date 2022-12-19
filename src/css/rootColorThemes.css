@@ -17,6 +17,19 @@
     --numbers-text-first-theme: hsl(221, 14%, 31%);
 
 /* <---------- SECOND THEME COLOR ----------> */
+
+    --bg-main-second-theme: hsl(0, 0%, 90%);
+    --text-dark-gray: hsl(60, 10%, 19%);
+    --toggleAndKeypad-bg-second-theme: hsl(0, 5%, 81%);
+    --screen-bg-second-theme: hsl(0, 0%, 93%);
+    --resetAndderKey-bg-second-theme: hsl(185, 42%, 37%);
+    --resetAndderKey-shadow-second-theme: hsl(185, 58%, 25%);
+    --equalKey-bg-second-theme: hsl(25, 98%, 40%);
+    --equalKey-shadow-second-theme: hsl(25, 99%, 27%);
+    --key-bg-second-theme: hsl(45, 7%, 89%);
+    --key-shadow-second-theme: hsl(35, 11%, 61%);
+
+
 /* <---------- THIRD THEME COLOR ----------> */
 
 }
@@ -73,4 +86,44 @@
 
 
 /* <---------- SECOND THEME COLOR ----------> */
+
+.secondBgTheme{
+    background-color: var(--bg-main-second-theme);
+}
+
+.textColorDarkGray{
+    color: var(--text-dark-gray);
+}
+
+.toggleAndKeypad-bg-second-theme{
+    background-color: var(--toggleAndKeypad-bg-second-theme);
+}
+
+.screen-bg-second-theme{
+    background-color: var(--screen-bg-second-theme);
+}
+
+.resetAndderKey-bg-second-theme{
+    background-color: var(--resetAndderKey-bg-second-theme);
+}
+
+.resetAndderKey-shadow-second-theme{
+    box-shadow: 0 5px 0 0 var(--resetAndderKey-shadow-second-theme);
+}
+
+.equalKey-bg-second-theme{
+    background-color: var(--equalKey-bg-second-theme);
+}
+
+.equalKey-shadow-second-theme{
+    box-shadow: 0 5px 0 0 var(--equalKey-shadow-second-theme);
+}
+
+.key-bg-second-theme{
+    background-color: var(--key-bg-second-theme);
+}
+
+.key-shadow-second-theme{
+    box-shadow: 0 5px 0 0 var(--key-shadow-second-theme);
+}
 /* <---------- THIRD THEME COLOR ----------> */

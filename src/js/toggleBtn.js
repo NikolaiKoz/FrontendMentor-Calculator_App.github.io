@@ -40,14 +40,17 @@ let ballClass = "";
         case 'circlePosition1':
             ball.classList.remove('circlePosition1');
             ball.classList.add('circlePosition2');
+            changeTheme(ballClass);
             break;
         case 'circlePosition2':
             ball.classList.remove('circlePosition2');
             ball.classList.add('circlePosition3');
+            changeTheme(ballClass);
             break;
         case 'circlePosition3':
             ball.classList.remove('circlePosition3');
             ball.classList.add('circlePosition1');
+            changeTheme(ballClass);
             break;
     };
 
